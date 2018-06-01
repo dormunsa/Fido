@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Carbian Dream Form </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="includes/style.css">
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="includes/js/main.js"></script>
+  <audio id="my_audio" src="includes/banana.mp3" loop="loop"></audio>
+</head>
+<body>
+  <div id="wrapper">
+    <main>
+      <h1 id="title">Welcome To The Caribian Dream</h1>
+      <h3 id="subTitle">Come And Join Us</h1>
+      <section id="formContainer" id="svg">
+          
+         
+          <form onsubmit="return checkForm(this)" id="myForm" action="http://html5-book.co.il/teach/forms/get_form2.php" method="">
+            <div class="form-group">
+              <label>Full Name:</label>
+              <input type="text" name="fullName" class="form-control" required  maxlength="15">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Enter Your Passward:</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" name="pass" minlength="8"  required >
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1"  name="mail" required autocomplete="on">
+              
+            </div>
+            <div class="form-group">
+              <label>Your Favorite Island:</label>
+              <input type="text"  class="form-control" name="website">
+            </div>
+            <div class="form-group">
+              <label>Phone:</label>
+              <input type="tel" name="phone" class="form-control" autocomplete="on" required minlength="10" maxlength="10">
+            </div>
+            <div class="form-group">
+              <label>How Much You Like Rest?</label>
+              <input type="number" name="coffee" class="form-control" >
+            </div>
+            <div class="form-group">
+              <label>How Lazy Are You?</label>
+              <input type="range" name="temper" class="form-control" >
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Your Caribian Dream:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="address"></textarea>
+              </div>
+            <div class="form-check">
+              <label>What Is Your Favorite hobie?<br>
+              <input type="checkbox" value="Rest" name="interests[]"> Rest <br>
+              <input type="checkbox" value="Lay On Beach" name="interests[]"> Lay On Beach <br>
+              <input type="checkbox" value="Eat Pineapple"  name="interests[]"> Eat Pineapple <br>
+              <input type="checkbox"  value="Drink Shakes" name="interests[]"> Drink Shakes <br>
+            </div>
+            <div class="form-group">
+              <label>Gender?</label><br>
+              <input type="radio" name="gender" value="male"> Male &nbsp;
+              <input type="radio" name="gender" value="female"> Female &nbsp;
+            </div>
+            <div class="form-group">
+              <label>Your Favorite Plantain?</label><br>
+              <select name="age">
+                <option value="Mango">Mango</option>
+                <option value="Banana">Banana</option>
+                <option value="Papaya">Papaya</option>
+                <option value="Pineapple">Pineapple</option>
+              </select>
+            </div>
+           
+              <button id="subButton" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+            
+          
+      </section>
+      
+  
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </main>
+</div>
+  </body>
+    </html>
+    

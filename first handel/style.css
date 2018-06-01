@@ -1,0 +1,564 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/* layout 1 css */
+
+#wrapper{
+    width: 1000px;
+    margin: 0px auto;
+    
+
+}
+.clear{
+    clear: both;
+}
+header,nav,aside,main,nav,section,footer{
+    display: block;
+}
+header.first_lay{
+    height: 183px;
+   
+    background-color: #ffffff;
+    
+}
+nav.first_lay{
+    height: 57px;
+    width: 727px;
+    background-color: #b94a48;
+    margin-top: 48px;
+    float: right;
+}
+
+#logo_first
+{
+    height: 78px;
+    width: 78px;
+   background-image: url(../images/logo.png);
+   background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    top:20px;
+    left: 100px;
+}
+aside.first_lay{
+    width: 121px;
+    height: 696px;
+    background-color:#f2dede;
+    float: left;
+}
+#first{
+    width: 849px;
+    height: 268px;
+    background-color: #ee5f5b;
+    float: right;
+}
+main.first_lay{
+    height: 428px;
+    width: 849px;
+    background-color: #ffffff;
+    float: right;
+}
+footer.first_lay{
+    height: 121px;
+    width: 1000px;
+    background-color: #d6d6d6;
+}
+#box1{
+    height: 94px;
+    width: 126px;
+    background-color:   #000000;
+    opacity: 80%;
+    position: relative;
+    top:87px;
+    left:361px;
+    opacity:0.6;
+}
+#box2{
+    height: 175px;
+    width: 695px;
+    position: relative;
+    top:224px;
+    left:78px;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+
+ul li.list_items{
+    float:left ;
+    list-style-type: none;
+    width: 241.3px;
+    height: 57px;
+    background-color:#b94a48;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    
+    
+    
+
+}
+ ul li#first_lay{
+    float:left ;
+    list-style-type: none;
+    width: 241.3px;
+    height: 57px;
+    background-color:#333333;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+/* layout 2 css */
+
+header.second_lay{
+    height: 193px;
+    width: 1000px;
+    background-color: #ffffff;
+} 
+.logo_lay2{
+    height: 68px;
+    width: 68px;
+    position: relative;
+    display: block;
+    left:465px;
+    top:38px;
+   
+    background-image: url(../images/logolay2.png)
+}
+aside.second_lay{
+    height: 759px;
+    width: 244px;
+    background-color: #333333;
+    float: left;
+}
+ul li.list_items2{
+    
+    
+    list-style-type: none;
+    width: 244px;
+    height: 60px;
+    background-color:#333333;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 18px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    
+    
+    
+
+}
+ul li#second_lay{
+    
+    
+    list-style-type: none;
+    width: 244px;
+    height: 60px;
+    background-color:#b94a48;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+main.second_lay{
+    height: 759px;
+    width: 756px;
+    background-color: #ee5f5b;
+    float: left;
+}
+footer.second_lay{
+    height: 51px;
+    width: 1000px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #d6d6d6;
+    
+}
+main #ar1{
+    height: 366px;
+    width: 214px;
+    background-color: #000000;
+    opacity: 0.6;
+    float: left;
+    margin-left: 30px;
+}
+main #ar2{
+    height: 560px;
+    width: 214px;
+    background-color: #000000;
+    opacity: 0.6;
+    float: left;
+    margin-left: 30px;
+}
+main #ar3{
+    height: 223px;
+    width: 212px;
+    background-color: #000000;
+    opacity: 0.6;
+    float: left;
+    margin-left: 30px;
+}
+main #ar4{
+    height: 500px;
+    width: 212px;
+    background-color: #000000;
+    opacity: 0.6;
+    position: relative;
+    top:389px;
+    left: 30px;
+}
+main #ar5{
+    height: 306px;
+    width: 214px;
+    background-color: #000000;
+    opacity: 0.6;
+    position: relative;
+    top: 83px;
+    left: 274px;
+}
+/* layout 3 css */
+
+
+/* desktop css */
+@media only screen and (min-width: 800px){
+    #wrapper3{
+        width: 1000px;
+        margin: 0px auto;
+    }
+    
+    header.thirdLay{
+        width: 1000px;
+        height: 500px;
+        background-color: #ffffff;
+    }
+    .logoAndPlusContainer{
+        height:438px;
+        width: 500px;
+        background-color: #ffffff;
+        float: left;
+    }
+    #plus{
+        position: absolute;
+        top: 208px;
+        left:207px;
+    }
+    .logo_lay3{
+        height: 68px;
+        width: 68px;
+        position: relative;
+        display: block;
+        left:20px;
+        top:22px;
+        background-image: url(../images/logolay2.png)
+    
+    }
+    .squaresContainer{
+        width: 500px;
+        height: 500px;
+        background-color: #9d261d;
+        float: left;
+    }
+    .Square{
+    height: 250px;
+    width: 250px;
+    background-color: #000000;
+    float: left;
+    
+    
+    }
+    #firstSquare{
+        opacity: 0.4;
+    }
+    #secondSquare{
+        opacity: 0.8;
+    }
+    #thirdSquare{
+        opacity: 0.6;
+    }
+    #fourSquare{
+        opacity: 0.3;
+    }
+    main.thirdLay{
+        width: 1000px;
+        height: 1000px;
+        float: left;
+        background-color: #9d261d;
+    }
+    .leftContainer{
+        float: left;
+        position: relative;
+        width: 500px;
+        width: 500px;
+        background-color: #ffffff;
+    
+    }
+    nav.thirdLay{
+        height: 62px;
+        width: 500px;
+        position: absolute;
+        background-color: #333333;
+        top: 438px;;
+    
+    
+    }
+    ul li.list_items3{
+        float:left ;
+        list-style-type: none;
+        width:166.6px;
+        height:62px;
+        background-color:#b94a48;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        
+        
+        
+    
+    }
+    ul li#thirdLay{
+        float:left ;
+        list-style-type: none;
+        width:166.6px;
+        height:62px;
+        background-color:#333333;
+        text-align: center;
+       
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        
+    }
+    
+}
+/* mobile css */
+@media only screen and (max-width:590px){
+    #wrapper3{
+        width: 500px;
+        margin: 0px auto;
+    }
+    
+    header.thirdLay{
+        width: 500px;
+        height: 500px;
+        background-color: #ffffff;
+    }
+    .logoAndPlusContainer{
+        height:500px;
+        width: 500px;
+        background-color: #ffffff;
+        display: block;
+    }
+    #plus{
+        position: absolute;
+        top: 207px;
+        left:206px;
+    }
+    .logo_lay3{
+        height: 68px;
+        width: 68px;
+        position: relative;
+        display: block;
+        left:20px;
+        top:22px;
+        background-image: url(../images/logolay2.png)
+    
+    }
+    .squaresContainer{
+        width: 500px;
+        height: 500px;
+        background-color: #9d261d;
+        float: left;
+    }
+    .Square{
+    height: 250px;
+    width: 250px;
+    background-color: #000000;
+    float: left;
+    
+    
+    }
+    #firstSquare{
+        opacity: 0.4;
+    }
+    #secondSquare{
+        opacity: 0.8;
+    }
+    #thirdSquare{
+        opacity: 0.6;
+    }
+    #fourSquare{
+        opacity: 0.3;
+    }
+    main.thirdLay{
+        width: 500px;
+        height: 1000px;
+        float: left;
+        background-color: #9d261d;
+    }
+    
+    nav.thirdLay{
+        height: 62px;
+        width: 500px;
+        position: absolute;
+        background-color: #333333;
+        top: 438px;;
+    
+    
+    }
+    ul li.list_items3{
+        float:left ;
+        list-style-type: none;
+        width:166.6px;
+        height:62px;
+        background-color:#b94a48;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        
+        
+        
+    
+    }
+    ul li#thirdLay{
+        float:left ;
+        list-style-type: none;
+        width:166.6px;
+        height:62px;
+        background-color:#333333;
+        text-align: center;
+       
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        
+    }
+}
+
+@media only screen and (min-width: 590px) and (max-width: 800px){
+    #wrapper3{
+        width: 800px;
+        margin: 0px auto;
+    }
+    
+    header.thirdLay{
+        width: 800px;
+        height: 500px;
+        background-color: #ffffff;
+    }
+    .logoAndPlusContainer{
+        height:438px;
+        width: 800px;
+        background-color: #ffffff;
+       float: left;;
+    }
+    #plus{
+        position: absolute;
+        top: 208px;
+        left:207px;
+    }
+    .logo_lay3{
+        height: 68px;
+        width: 68px;
+        position: relative;
+        display: block;
+        left:20px;
+        top:22px;
+        background-image: url(../images/logo.lay2.png)
+    
+    }
+    .squaresContainer{
+        width: 800px;
+        height: 250px;
+        background-color: #9d261d;
+        float: left;
+    }
+    .Square{
+    height: 250px;
+    width: 200px;
+    background-color: #000000;
+    float: left;
+    
+    
+    }
+    #firstSquare{
+        opacity: 0.4;
+    }
+    #secondSquare{
+        opacity: 0.8;
+    }
+    #thirdSquare{
+        opacity: 0.6;
+    }
+    #fourSquare{
+        opacity: 0.3;
+    }
+    main.thirdLay{
+        width: 800px;
+        height: 1000px;
+        float: left;
+        background-color: #9d261d;
+    }
+    
+    nav.thirdLay{
+        height: 62px;
+        width: 500px;
+        position: absolute;
+        background-color: #333333;
+        top: 376px;;
+    
+    
+    }
+    ul li.list_items3{
+        float:left ;
+        list-style-type: none;
+        width:166.6px;
+        height:62px;
+        background-color:#b94a48;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        
+        
+        
+    
+    }
+    ul li#thirdLay{
+        float:left ;
+        list-style-type: none;
+        width:166.6px;
+        height:62px;
+        background-color:#333333;
+        text-align: center;
+       
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        
+    }
+    .leftContainer{
+        float: left;
+        position: relative;
+        width: 800px;
+        width: 500px;
+        background-color: #ffffff;
+    
+    }
+    
+}

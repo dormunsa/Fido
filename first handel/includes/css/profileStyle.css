@@ -1,0 +1,447 @@
+
+/* Sign-in Page */
+@media only screen and (max-width: 480px){
+    a{
+        text-decoration: none;
+        color:#7a7a7a;
+    }
+    
+    #wrapper{
+        width: 375px;
+        margin: 0 auto;
+        background-color: #f2f2f2;
+       
+       
+    }
+    .clear{
+        clear: both;
+    }
+    a:hover{
+       
+        text-decoration: none;
+        color: #000000;
+    }
+    .signup-row input {
+        /*padding: 5px 0;*/
+        border: 0;
+        border-bottom: 2px solid #ffff;
+        background: transparent;
+        /*text-align: center;*/
+        outline: none;
+        color: #7a7a7a;
+        font-family: 'Ubuntu', sans-serif;
+        width: 323px;
+        position: relative;
+    }
+    .signup-row input::-webkit-input-placeholder {
+        color: #7a7a7a;
+      text-shadow:1px 1px 1px rgba(51, 51, 51, 0.6)
+    }
+    
+    .signup-row i {
+        color: #fff;
+        position: relative;
+        left: 20px;
+        text-shadow:1px 1px 1px rgba(51, 51, 51, 0.6)
+    }
+    
+    .signup-row a {
+        font-size: 40px;
+        text-decoration: none;
+        position:relative;
+    }
+    
+    .signup-row a i {
+        left: 0;
+    }
+    #pass{position: relative;
+    top:21px;
+    font-size: 12px;
+    font-weight: bold;
+}
+    #user{
+    font-size: 12px;
+    font-weight: bold;
+    }
+    #userInnput{
+        position: absolute;
+        top: 0px;
+    }
+    #passInnput{
+        position: absolute;
+        top: 43px;
+    }
+    #formContainer{
+        display: block;
+        width: 323px;
+        height: 200px;
+        position: relative;
+        left: 27px;
+        top:100px;
+    }
+    form{
+        display: block;
+        position: relative;
+}
+
+
+
+.signInPage h1{
+        display:inline-block;
+        font-size: 41px;
+        font-family: 'Ubuntu', sans-serif;
+        
+}
+.signInPage a{
+    font-weight: bold;
+}
+.signInPage{
+    position: relative;
+    left: 27px;
+    top:65px;
+}
+#confirm{
+    position: relative;
+    top:80px;
+    left: 280px;
+    display: block;
+    font-weight: bold;
+}
+#logoContainer{
+    width: 375px;
+    height:277px;
+    background-image:url(../../images/footerBackg1.jpeg);
+    background-repeat: no-repeat;
+    position: relative;
+    top:150px;
+}
+#logo{
+    background-image: url(../../images/logo1.png);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 200px;
+    position: relative;
+    top: 65px;
+    left:100px;
+    display: block;
+}
+body{
+    background-color: #f2f2f2;
+}
+}
+
+
+/* Sign-up Page */
+@media only screen and (max-width: 480px){
+    a{
+        text-decoration: none;
+        color:#7a7a7a;
+    }
+    a:hover{
+       
+        text-decoration: none;
+        color: #000000;
+    }
+    .signup-row input {
+        /*padding: 5px 0;*/
+        border: 0;
+        border-bottom: 2px solid #c0c0c0;
+        background: transparent;
+        /*text-align: center;*/
+        outline: none;
+        color: #7a7a7a;
+        font-family: 'Ubuntu', sans-serif;
+        width: 323px;
+        position: relative;
+    }
+    .signup-row input::-webkit-input-placeholder {
+        color: #7a7a7a;
+      text-shadow:1px 1px 1px rgba(51, 51, 51, 0.6)
+    }
+    
+    .signup-row i {
+        color: #fff;
+        position: relative;
+        left: 20px;
+        text-shadow:1px 1px 1px rgba(51, 51, 51, 0.6)
+    }
+    
+    .signup-row a {
+        font-size: 40px;
+        text-decoration: none;
+        position:relative;
+    }
+    
+    .signup-row a i {
+        left: 0;
+    }
+    #pass{
+    position: relative;
+    top:50px;
+    font-size: 12px;
+    font-weight: bold;
+    }
+    #user{
+    font-size: 12px;
+    font-weight: bold;
+    }
+    #conPass{
+        position: relative;
+        top:100px;
+        font-size: 12px;
+        font-weight: bold;
+
+
+    }
+    #userInnput{
+        position: absolute;
+        top: 20px;
+    }
+    #passInnput{
+        position: absolute;
+        top: 100px;
+    }
+    #ConPassInnput{
+        position: absolute;
+        top: 180px;
+    }
+    #formContainer{
+        display: block;
+        width: 323px;
+        height: 200px;
+        position: relative;
+        left: 27px;
+        top:100px;
+    }
+    form{
+        display: block;
+        position: relative;
+}
+.signInPage h1{
+        display:inline-block;
+        font-size: 41px;
+        font-family: 'Ubuntu', sans-serif;
+        
+}
+.signInPage a{
+    font-weight: bold;
+}
+.signInPage{
+    position: relative;
+    left: 27px;
+    top:65px;
+}
+#confirm1{
+    position: relative;
+    top:140px;
+    left: 280px;
+    display: block;
+    font-weight: bold;
+}
+#logoContainer{
+    width: 375px;
+    height:277px;
+    background-image:url(../../images/footerBackg1.jpeg);
+    background-repeat: no-repeat;
+    position: relative;
+    top:150px;
+}
+#logo{
+    background-image: url(../../images/logo1.png);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 100px;
+    position: relative;
+    top: 65px;
+    left:100px;
+    display: block;
+}
+body{
+    background-color: #f2f2f2;
+}
+#fastSign{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    top: 120px;
+    left: 20px;
+}
+#face{
+   float: left;
+    width: 169px;
+    height: 37px;
+    background-image: url(../../images/faceButton.jpeg);
+    background-repeat: no-repeat;
+}
+#goog{
+    right: 4px;
+    float: left;
+    position: relative;
+    top: 2px;
+    width: 174px;
+    height: 33px;
+    background-image: url(../../images/googleButton.jpeg);
+    background-repeat: no-repeat;
+}
+.clear{
+    clear: both;
+}
+}
+
+/* Profile Page */
+@media only screen and (max-width: 480px){
+
+    #nav{
+        position:relative;
+        height: 70px;
+        width: 375px;
+    }
+    #profile{
+        height: 51px;
+        width: 50px;
+        top: 5px;
+        left: 170px;
+        background-image: url(../../images/profileIcon.png);
+        position: relative;
+        display:inline-block;
+    }
+    #adopt{
+        height: 50px;
+        width: 50px;
+        top: 5px;
+        left: 280px;
+        background-image: url(../../images/AdoptIcon.png);
+        position: relative;
+        display:inline-block;
+        background-repeat: no-repeat;
+    }
+    #person{
+        height: 300px;
+        width: 375px;
+        position: relative;
+        top: 0px;
+        left:0px;
+        display: block;
+    }
+    #profilePic{
+        top: 0px;
+        left: 90px;
+        position: relative;
+        display:inline-block;
+        background-repeat: no-repeat;
+    }
+    #profileName{
+        font-weight: bold;
+        font-size: 23px;
+        left: 120px;       
+        position: relative;
+    }
+    #iconContainer{
+        background-repeat: no-repeat;
+        width: 375px;
+        height: 100px;
+        position: relative;
+        display: block;
+    }
+    #settingIcon{
+        float: left;
+         width: 80px;
+         height: 80px;
+         background-image: url(../../images/settingIcon.png);
+         background-repeat: no-repeat;
+         left: 80px;
+         display: block;
+         position: absolute;
+         left:85px;
+     }
+     #editIcon{
+         float: left;
+         position: absolute;
+         width: 80px;
+         height: 80px;
+         background-image: url(../../images/editIcon.png);
+         background-repeat: no-repeat;
+         left: 225px;    
+         display: block;              
+     }
+     #settings{
+        font-size: 15px;
+    float: left;
+    position: relative;
+    /* width: 80px; */
+    /* height: 80px; */
+    left: 91px;
+    top: 74px;
+    }
+    #editInfo{
+        float: left;
+    position: relative;
+    font-size: 15px;
+    /* width: 80px; */
+    /* height: 80px; */
+    left: 168px;
+    top: 75px;
+
+    }
+     #profileAds{
+        width: 325px;
+        height: 85px;
+        top: 60px;
+        left: 20px;
+        background-repeat: no-repeat;
+        position: relative;
+        display: block;
+     }
+     #guidButton{
+        width: 142px;
+        height:42px;
+        background-image:url(../../images/guidButton.png);
+        background-repeat: no-repeat;
+        position: relative;
+        top:40px;
+        left: 110px;
+        display: block;
+     }
+     #logoContainer{
+        width: 375px;
+        height:300px;
+        background-image:url(../../images/footerBackg1.jpeg);
+        background-repeat: no-repeat;
+        position: relative;
+        top:0px;
+        display: block;
+    }
+    #user1{
+        width: 36px;
+        height: 41px;
+        background-image: url(../../images/profileNavSelected.png);
+        background-repeat: no-repeat;
+    
+           float:left ;
+            list-style-type: none;
+               
+            position: relative;
+            top: 15px;
+            left: 137px;
+        
+    }
+    #paw1{
+        width: 30px;
+        height: 28px;
+        background-image: url(../../images/pawNav.png);
+        background-repeat: no-repeat;
+        float:right ;
+    list-style-type: none;
+    position: relative;
+    top: 15px;
+    right: 10px;
+        
+    }
+    #mainNav1{
+        height: 78px;
+        width: 375px;
+        position: relative;
+       
+    }
+
+}

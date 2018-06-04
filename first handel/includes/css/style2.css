@@ -1,0 +1,654 @@
+/* ----------- feedBack page ------------- */
+
+@media only screen and (max-width: 480px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #wrapper{
+        width: 375px;
+        margin: 0 auto;
+        background-color: #f2f2f2;
+        color: #ffffff;
+       
+    }
+    #opacity{
+        background: rgba(35, 35, 35,0.95) !important;
+    }
+    
+    
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    a:hover{
+       
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .clear{
+        clear: both;
+    }
+    header,nav,aside,main,nav,section,footer,button{
+        display: block;
+    }
+    #welcomeContainer{
+        width: 375px;
+        height: 170px;
+        position: relative;
+    }
+    #content{
+        width: 375px;
+        height: 368px;
+        
+    }
+    #imageContainer{
+        width: 375px;
+       height: 222px;
+       position: relative;
+      
+    }
+    #buttonsContainer{
+        width: 375px;
+        height: 146px;
+        position: relative;
+        
+    }
+    #logoContainer{
+        height: 124px;
+        width: 375px;
+        background-image:url(../../images/footerBackg1.jpeg);
+        background: rgba(35, 35, 35,0.95) !important;
+        position: relative;
+    }
+    #title{
+        position: absolute;
+        top:60px;
+        left:60px;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 39px;
+        
+     
+    }
+    #firstPhead{
+        position: absolute;
+        top:125px;
+        left:117px;
+        font-family: "Comic Sans MS";
+        font-size: 18px;
+    }
+    #secondPhead{
+        position: absolute;
+        top:150px;
+        left:36px;
+        font-family: "Comic Sans MS";
+        font-size: 18px;
+    }
+    #profile{
+        position: absolute;
+        top: 16px;
+        left:114px;
+    }
+    #recommend{
+        position: absolute;
+        top: 181px;
+        left:112px;
+        font-family: "Comic Sans MS";
+        font-size: 14px;
+        color:#dfedd6;
+    }
+    #tutorial{
+        position: absolute;
+        top: 199px;
+        left:94px;   
+        font-family: "Comic Sans MS";
+        font-size: 14px;
+        color:#dfedd6;
+
+    }
+    #firstButton{
+    background-color: #aedd94;
+    border-radius: 10px;
+    border: 1px solid #dfedd6;
+    color: white;
+    height: 40px;
+    width: 260px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    top:90px;
+    left:60px;
+    box-shadow: 1px 1px #000000;
+
+    }
+    #secondButton{
+    background-color: #444444;
+    border-radius: 10px;
+    border: 1px solid #dfedd6;
+    color: white;
+    height: 40px;
+    width: 260px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    top:152px;
+    left:60px;
+    box-shadow: 1px 1px #000000;
+
+        }
+        #logo1{
+            background-image: url(../../images/logo2.jpeg);
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 100px;
+            position: absolute;
+            top: 0px;
+            left:96px;
+            display: block;
+        }
+}
+/* ----------- Form page ------------- */
+
+@media only screen and (max-width: 480px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #wrapper{
+        width: 375px;
+        margin: 0 auto;
+        background-color: #f2f2f2;
+        color: #ffffff;
+       
+    }
+    #opacity{
+        background: rgba(35, 35, 35,0.95) !important;
+    }
+    
+    
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    a:hover{
+       
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .clear{
+        clear: both;
+    }
+    header,nav,aside,main,nav,section,footer,button{
+        display: block;
+    }
+    #navContainer{
+            height: 78px;
+            width: 375px;
+            position: relative;
+    }
+    #mainNav{
+        height: 78px;
+        width: 375px;
+        position: relative;
+       
+    }
+    #user{
+    float:left ;
+    list-style-type: none;
+       
+    position: relative;
+    top: 15px;
+    left: 170px;
+        
+
+    }
+    i.fa.fa-user::before{
+        position: absolute;
+        left: 167px;
+        top:20px;
+        font-size: 30px;
+       
+    }
+    small{
+        font-size: 15px;
+        position: absolute;
+        left: 164px;
+        top:44px;
+
+    }
+    #paw{
+    float:right ;
+    list-style-type: none;
+    position: relative;
+    top: 15px;
+    right: 10px;
+       
+    }
+    
+    #mainBlock{
+        width: 348px;
+        height: 1400px;
+        margin: 0 auto;
+        background: rgba(35, 35, 35,0.95);
+        border-radius: 4px;
+
+    }
+    #imageContainer{
+        width: 348px;
+        height: 142px;
+        position: relative;
+    }
+    #profile{
+        position: absolute;
+        top:40px;
+        left:136px;
+    }
+    #editProf{
+        height: 711px;
+        width: 348px;
+        position: relative;
+       
+    }
+
+    #personal{
+        position: relative;
+        width: 348px;
+        height: 132px;
+        top:22px;
+    }
+    #personalInput{
+        height: 97px;
+        width: 312px;
+        margin: 0 auto;
+        background-color: #b0b0b0;
+        border-radius: 4px;
+        box-shadow: 1px 1px #000000;
+
+    }
+    #habitates{
+        position: relative;
+        width: 370px;
+        height: 352px;
+        top:22px;
+    }
+    #habitatesInput{
+        height: 420px;
+        width: 312px;
+        margin: 0 auto;
+        background-color: #b0b0b0;
+        border-radius: 4px;
+        box-shadow: 1px 1px #000000;
+
+    }
+    #preference{
+        position: relative;
+        width: 348px;
+        height: 249px;
+        top:144px;
+    }
+    #preferenceInput{
+        height: 420px;
+        width: 312px;
+        margin: 0 auto;
+        background-color: #b0b0b0;
+        border-radius: 4px;
+        box-shadow: 1px 1px #000000;
+
+    }
+    #personalTitle{
+        font-size: 14px;
+        font-family: "Ubuntu", sans-serif;
+        position: relative;
+        left:125px;
+    }
+    #preferenceTitle{
+        font-size: 14px;
+        font-family: "Ubuntu", sans-serif;
+        position: relative;
+        left:145px;
+    }
+    #habitatesTitle{
+        font-size: 14px;
+        font-family: "Ubuntu", sans-serif;
+        position: relative;
+        left:145px;
+    }
+  .form-control {
+      color: #ffffff;
+      background-color: #b0b0b0;
+      border: none;
+      width: 312px;
+      
+  }
+    #date{
+            position: relative;
+            left:15px;
+    }
+    #location{
+        position: relative;
+        left:15px;
+}
+::placeholder { 
+    color: #ffffff;
+    opacity: 1; 
+}
+select.form-control:not([size]):not([multiple]) {
+    height: 7px;
+}
+input[type=submit] {
+    background:url(../../images/save.png) !important;
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 25px;
+    left: 140px;
+  }
+#cover{
+    height: 96px;
+    width: 312px;
+    position: relative;
+    top: 420px;
+ 
+}
+#user{
+    width: 36px;
+    height: 41px;
+    background-image: url(../../images/profileNavSelected.png);
+    background-repeat: no-repeat;
+    
+}
+#paw{
+    width: 30px;
+    height: 28px;
+    background-image: url(../../images/pawNav.png);
+    background-repeat: no-repeat;
+    
+}
+    
+}
+@media only screen and (max-width: 480px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #wrapper{
+        width: 375px;
+        margin: 0 auto;
+        background-color: #f2f2f2;
+        
+       
+    }
+    #opacity{
+        background: rgba(35, 35, 35,0.95) !important;
+    }
+    
+    
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    a:hover{
+       
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .clear{
+        clear: both;
+    }
+    header,nav,aside,main,nav,section,footer,button{
+        display: block;
+    }
+    #navContainer3{
+            height: 78px;
+            width: 375px;
+            position: relative;
+    }
+    #mainNav3{
+        height: 78px;
+        width: 375px;
+        position: relative;
+       
+    }
+    #user{
+    float:left ;
+    list-style-type: none;
+       
+    position: relative;
+    top: 15px;
+    left: 170px;
+        
+
+    }
+    i.fa.fa-user::before{
+        position: absolute;
+        left: 167px;
+        top:20px;
+        font-size: 30px;
+       
+    }
+    small{
+        font-size: 15px;
+        position: absolute;
+        left: 164px;
+        top:44px;
+
+    }
+    #paw{
+    float:right ;
+    list-style-type: none;
+    position: relative;
+    top: 15px;
+    right: 10px;
+       
+    }
+    
+    #mainBlock3{
+        width: 357px;
+        height: 490px;
+        margin: 0 auto;
+        background-color: #b0b0b0;
+        border-radius: 4px;
+
+    }
+    #imageContainer{
+        width: 348px;
+        height: 142px;
+        position: relative;
+    }
+    #profile{
+        position: absolute;
+        top:40px;
+        left:136px;
+    }
+    #editProf{
+        height: 711px;
+        width: 348px;
+        position: relative;
+       
+    }
+
+    #personal{
+        position: relative;
+        width: 348px;
+        height: 132px;
+        top:22px;
+    }
+    #personalInput{
+        height: 97px;
+        width: 312px;
+        margin: 0 auto;
+        background-color: #b0b0b0;
+        border-radius: 4px;
+        box-shadow: 1px 1px #000000;
+
+    }
+    #habitates{
+        position: relative;
+        width: 370px;
+        height: 352px;
+        top:22px;
+    }
+    #habitatesInput{
+        height: 420px;
+        width: 312px;
+        margin: 0 auto;
+        background-color: #b0b0b0;
+        border-radius: 4px;
+        box-shadow: 1px 1px #000000;
+
+    }
+    #preference{
+        position: relative;
+        width: 348px;
+        height: 249px;
+        top:144px;
+    }
+    #preferenceInput{
+        height: 420px;
+        width: 312px;
+        margin: 0 auto;
+        background-color: #b0b0b0;
+        border-radius: 4px;
+        box-shadow: 1px 1px #000000;
+
+    }
+    #personalTitle{
+        font-size: 14px;
+        font-family: "Ubuntu", sans-serif;
+        position: relative;
+        left:125px;
+    }
+    #preferenceTitle{
+        font-size: 14px;
+        font-family: "Ubuntu", sans-serif;
+        position: relative;
+        left:145px;
+    }
+    #habitatesTitle{
+        font-size: 14px;
+        font-family: "Ubuntu", sans-serif;
+        position: relative;
+        left:145px;
+    }
+  #selectFilter {
+      color: #000000 !important ;
+      background-color:#ffffff !important ;
+      border: none !important;
+      width: 200px !important;
+      
+      
+  }
+    #date{
+            position: relative;
+            left:15px;
+    }
+    #location{
+        position: relative;
+        left:15px;
+}
+::placeholder { 
+    color: #ffffff;
+    opacity: 1; 
+}
+select.form-control:not([size]):not([multiple]) {
+    height: 7px;
+}
+input[type=submit] {
+    background:url(../../images/save.png) !important;
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 25px;
+    left: 140px;
+  }
+#cover{
+    height: 96px;
+    width: 312px;
+    position: relative;
+    top: 420px;
+ 
+}
+#user{
+    width: 36px;
+    height: 41px;
+    background-image: url(../../images/profileNavSelected.png);
+    background-repeat: no-repeat;
+    
+}
+#paw{
+    width: 30px;
+    height: 28px;
+    background-image: url(../../images/pawNav.png);
+    background-repeat: no-repeat;
+    
+}
+#filters{
+    width: 357px;
+    height: 50px;
+    border-radius: 4px;
+    background: rgba(35, 35, 35,0.95);;
+
+}
+#imagesContainer3{
+    width: 357px;
+    height: 490px;
+    background-color: #b0b0b0;
+    border-radius: 4px;
+    position: relative;
+
+}
+.profilePicture{
+    height: 150px;
+    width: 150px;
+    float: left;
+    position: relative;
+    margin-left:19px;
+    margin-top: 10px;
+    border-radius: 7px;
+    box-shadow: 1px 1px #000000;
+
+
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #000;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+}
+.imgs{
+    height: 150px;
+    width: 150px;
+    border-radius: 7px;
+}
+#logoContainer3{
+    height: 124px;
+    width: 375px;
+    background-image:url(../../images/footerBackg1.jpeg);
+    position: relative;
+}
+    
+}

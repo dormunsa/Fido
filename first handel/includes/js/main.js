@@ -14,13 +14,9 @@
       text.text=dog.name;
       var infinity= $("<i></i>");
       infinity.addClass('fas fa-infinity');
-      
-
       var imageContainer= $("<div></div>");
       imageContainer.addClass('profilePicture');
-
       text.addClass('bottom-left');
-     
       imageContainer.append(dogImage);
       imageContainer.append(text);
       imageContainer.append(infinity);

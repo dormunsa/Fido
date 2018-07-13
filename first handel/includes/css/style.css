@@ -954,7 +954,7 @@ body{
         height: 667px;
         margin: 0 auto;
         /* color: #ffffff; */
-        background-image: url(/images/allBack.jpeg);
+        background-image: url(../../images/allBack.jpeg);
         background-repeat: no-repeat;
         position: relative;
     }

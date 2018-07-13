@@ -1,5 +1,44 @@
 
     $(document).ready(function () {
+      $(function() {
+        $("#editProf").submit(function() {
+          var fullNAme = $("#fullName").val();
+          var dateOB = $("#birth").val();
+          var location = $("#location" ).val();
+          var relationStat = $("#relationStat option:selected" ).text();
+          var children = $("#children option:selected" ).text();
+          var homeType = $("#homeType option:selected" ).text();
+          var outdoor = $("#outdoor option:selected" ).text();
+          var availble = $("#availble option:selected" ).text();
+          var expirience = $("#expirience option:selected" ).text();
+          var partners = $("#partners option:selected" ).text();
+          var energetic = $("#energetic option:selected" ).text();
+          var fur = $("#fur option:selected" ).text();
+          var maturity = $("#maturity option:selected" ).text();
+          var friendly = $("#friendly option:selected" ).text();
+          var obidience = $("#obidience option:selected" ).text();
+          var danagrus = $("#danagrus option:selected" ).text();
+          var priority = $("#priority option:selected" ).text();
+          var dataString = 'fullNAme=' + fullNAme + '&dateOB=' + dateOB+'&location='+location+'&relationStat='+relationStat+'&children='+children+'&homeType='+homeType+'&outdoor='+outdoor+'&availble='+availble+'&expirience='+expirience+'&partners='+partners+'&energetic='+energetic+'&homeType='+homeType+'&outdoor='+outdoor+'&availble='+availble+'&expirience='+expirience+'&partners='+partners+'&energetic='+energetic+'&homeType='+homeType+'&outdoor='+outdoor+'&availble='+availble+'&expirience='+expirience+'&partners='+partners+'&energetic='+energetic;+'&homeType='+homeType+'&outdoor='+outdoor+'&availble='+availble+'&expirience='+expirience+'&partners='+partners+'&energetic='+energetic;+'&homeType='+homeType+'&outdoor='+outdoor+'&availble='+availble+'&expirience='+expirience+'&partners='+partners+'&energetic='+energetic;+'&fur='+fur+'&maturity='+maturity+'&friendly='+friendly+'&obidience='+obidience+'&danagrus='+danagrus+'&priority='+priority;
+        
+          // //console.log(dataString);
+          // $("#loader").show();
+          // $("#loader").fadeIn(300).html('<span class="loading">Loading..</span>');
+          
+          $.ajax({
+            type: "POST",
+            url: "addUser.php",
+            data: dataString,
+            cache: true,
+            // success: function(html){
+            //   $("#loader").after(html);
+            //   $("#loader").hide();
+            //   console.log(html);
+            // }  
+          });
+          return false;
+        });
+      });
       var json_data = []
 
       $.getJSON("/includes/data/DATA.json", function (data) {

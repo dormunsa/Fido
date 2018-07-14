@@ -1,0 +1,244 @@
+
+/* Homepage Web */  
+
+.warpper{
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    background-color: #232323;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
+    opacity: 0.40;
+    font-size: 18px;
+}
+
+.nav-link {
+    margin-left: 30px;
+    width: 100%;
+    font-family: 'ABeeZee';
+}
+
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
+    color: #4cd964;
+    opacity: 1;
+}
+
+.navbar{
+    padding: 0%;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.bg-light {
+    background-color: #232323!important;
+    border-bottom-color: floralwhite;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.btn-outline-success {
+    background-color: transparent;
+    background-image: none;
+    border-color: #232323;
+    padding-left: 10px;
+    border-left-color: #ffffff !important;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+@font-face {
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    src:  local('ABeeZee-Regular'), url(http://themes.googleusercontent.com/static/fonts/abeezee/v1/JYPhMn-3Xw-JGuyB-fEdNA.ttf) format('truetype');
+}
+p.Chalkboard { 
+    font-family: Comic Sans MS;
+    color: aliceblue;
+}
+
+p.ABeeZee{
+    font-family: ABeeZee;
+    color: aliceblue;
+}
+
+.btn-outline-success:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-color: transparent;
+}
+#logo{
+    cursor: pointer;
+}
+
+.btn-outline-success:not([disabled]):not(.disabled).active, .btn-outline-success:not([disabled]):not(.disabled):active, .show > .btn-outline-success.dropdown-toggle {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-color:#ffffff;
+}
+.btn-outline-success:focus {
+    box-shadow: #ffffff;
+}
+
+.containerHP{
+    position: relative;
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;   
+    margin-top: 28px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    background-color:rgb(49, 49, 49);
+    margin-left:28px;
+    border-color: black;
+}
+
+.hedaline{
+    text-align:center;
+    font-weight: bold;
+    border-bottom-color:rgb(110, 110, 110) !important;
+    border-bottom:solid;
+    border-bottom-width: 1px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+.names{
+    padding-top: 15px;
+    padding-right: 0px !important;
+    text-shadow: 1px 1px 5px black;
+
+}
+.details{
+    padding-left: 0px !important;
+    padding-top: 15px;
+    text-shadow: 1px 1px 5px black;
+}
+.personAndDog{
+    padding-bottom: 15px;
+    padding-left: 0px !important;
+    margin-left: -15px;
+    cursor: pointer;
+}
+.arrows{
+    position: relative;
+    top:12px;
+    width: 30px;
+    height: 30px;
+    padding-left: 0px !important;
+    cursor: pointer;
+    padding-right: 0px !important;
+}
+.questionButtons{
+    cursor: pointer;
+}
+
+#RECENT_MATCHES{
+    width: 476px;
+    float: left !important;
+}
+
+#ADOPTED_QUESTIONS{
+    width: 476px;
+    float: left !important;
+    clear: both;
+    top: -310px !important;
+}
+
+#questionsBox{
+    font-size: 8px !important;
+    background-color: rgb(40, 40, 40) !important;
+    margin-top: 10px ;
+}
+#oriImage{
+    margin-top: 5px !important;
+    width: 62px !important;
+}
+#arrowLeft{
+   margin-left: 10px !important;
+   margin-top: 20px !important;
+}
+#arrowRight{
+    margin-right: 10px !important;
+    margin-top: 20px !important;
+}
+#buttonsRow{
+    margin-top: 10px !important;
+}
+
+#welcome{
+    width: 665px !important;
+    float: left;
+}
+
+#welcomeP{
+    font-size: 20px ;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#YOUR_DOGS{
+    width: 320px;
+    float: left;
+}
+
+#miloArrowLeft{
+    margin-top: 50px !important;
+}
+
+#miloArrowRight{
+    margin-top: 50px !important;
+}
+#milo{
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+#precents99{
+    height: 29px;
+    width: 72px;
+    top:15px;
+}
+
+#precents83{
+    height: 26px;
+    width: 75px;
+    top:15px;
+}
+#precents77{
+    height: 24px;
+    width: 70px;
+    top:15px;
+}
+
+.yourDogs{
+    margin-top: 30px;
+}
+
+.statuses{
+    margin-top: 18px;
+}
+
+.statusImg{
+    height: 30px !important;
+    /* width: 40px !important; */
+    top:15px;
+}
+
+
+
+
+
+
+
+
+
+
+

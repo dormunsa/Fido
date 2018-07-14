@@ -1,0 +1,8 @@
+[   
+    {"id":"1","srcUrl":"images/dog1.jpg","name":"Jodi","breed":"mixed","age":"5","Gender":"Male","size":"Small","Weight":"20","Color":"Brown And White","Fur":"Short","Loyality":"Yes","Friendly":"Yes","Energetic":"High","Obidience":"High"},
+    {"id":"2","srcUrl":"images/dog2.jpg","name":"Dodo","breed":"mixed","age":"5","Gender":"Male","size":"Small","Weight":"20","Color":"Brown And White","Fur":"Short","Loyality":"Yes","Friendly":"Yes","Energetic":"High","Obidience":"High"},
+    {"id":"3","srcUrl":"images/dog3.jpg","name":"Lola","breed":"mixed","age":"5","Gender":"Male","size":"Small","Weight":"20","Color":"Brown And White","Fur":"Short","Loyality":"Yes","Friendly":"Yes","Energetic":"High","Obidience":"High"},
+    {"id":"4","srcUrl":"images/dog5.jpg","name":"Lori","breed":"mixed","age":"5","Gender":"Male","size":"Small","Weight":"20","Color":"Brown And White","Fur":"Short","Loyality":"Yes","Friendly":"Yes","Energetic":"High","Obidience":"High"},
+    {"id":"5","srcUrl":"images/dog6.jpg","name":"Shlomi","breed":"mixed","age":"5","Gender":"Male","size":"Small","Weight":"20","Color":"Brown And White","Fur":"Short","Loyality":"Yes","Friendly":"Yes","Energetic":"High","Obidience":"High"}
+]
+   
